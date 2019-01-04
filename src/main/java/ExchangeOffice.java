@@ -1,3 +1,13 @@
+/*Napisz program, który będzie pomagał w prowadzeniu kantoru. Kantor powinien obsługiwać wymianę trzech par walutowych:
+
+        PLN - EUR,
+        PLN - USD,
+        EUR - USD.
+        Właściciel kantoru z góry określa przelicznik referencyjny i spread dla każdej pary walutowej. W bardziej rozwiniętej wersji kantor powinien pobierać przelicznik referencyjny używając API. Możesz na przykład użyć tego.
+
+        Napisz ten program używając podejścia TDD.*/
+
+
 import java.util.Scanner;
 
 public class ExchangeOffice {
