@@ -83,20 +83,24 @@ public class ExchangeOffice {
                 System.out.println("Niewlaściwy wybór!");
                 chooseOption = 0;
                 break;
+                //TODO - poprawić wychodzenie - bug z zawieszaniem pętli w nieskończoność
         }
         System.out.println("Dziękujemy za skorzystanie z naszego kantora! Miłego dnia!");
 
     }
 
     private static int exchangePLNtoEUR(int plnValue) {
+        //TODO - napisać test, nastepnie zaprogramować resztę PLN to EUR
         return 0;
     }
 
     private static int exchangePLNtoUSD(int plnValue) {
+        //TODO - napisać test, nastepnie zaprogramować resztę PLN to USD
         return 0;
     }
 
     private static int exchangeEURtoUSD(int eurValue) {
+        //TODO - napisać test, nastepnie zaprogramować resztę EUR to USD
         return 0;
     }
 }
